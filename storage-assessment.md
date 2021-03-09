@@ -1,10 +1,11 @@
-### Storage Assessment: GIS Data
+## Storage Assessment: GIS Data
 
 All Current Data in Storage (broad strokes)
 TBD
 
-Unique Data in Storage | GSheet Inventory 
-UAIR “Geospatial data and maps” | http://uair.library.arizona.edu/item/292543
+### Unique Data in Storage | GSheet Inventory 
+
+* UAIR “Geospatial data and maps” | http://uair.library.arizona.edu/item/292543
 Vector data: Majority of data in the Spatial Data Explorer (and all of the data in the UAiR)
 NAIP datasets (specified): 2005, 2007, 2010, 2013 - regional 
 Biotic Communities
