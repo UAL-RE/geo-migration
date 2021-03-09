@@ -1,6 +1,5 @@
-# geo-migration
-Repo for moving UAL geo data to cyverse
-
+# Things to do
+*Reverse chronological order for updates*
 
 **1. [Set up CyVerse iRODS data store via icommands](https://learning.cyverse.org/projects/data_store_guide/en/latest/step2.html)**   
   Are there icommands on 'geo' or only 'sequoia'?
