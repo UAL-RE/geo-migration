@@ -29,14 +29,14 @@ Note: may be out of date
 
 Geodata: Number of datasets is few, datasets are large   
 
-Arizona data:
-Entire grid for one year is 1.2 TB
-Arizona State Lands bought it from Department of Agriculture, state has to purchase it and then
-AZL has 2017 (3.7 because higher resolution, 2019 will be the same )
-We have 2007, 2010, 2013, 2015 
-Arizona NAIP data: 
+**Arizona data:**
+Entire grid for one year is 1.2 TB  
+Arizona State Lands bought it from Department of Agriculture, state has to purchase it and then  
+AZL has 2017 (3.7 because higher resolution, 2019 will be the same )  
+We have 2007, 2010, 2013, 2015   
+**Arizona NAIP data:** 
 2005, 2007, 2010, 2013 - regional (we must keep this)
-Other: 
+**Other:** 
 Pima Associates for Government
 Currently lives on imagery.library
 Links on this site are linking directly from that filesystem
