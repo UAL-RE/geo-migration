@@ -6,26 +6,29 @@ TBD
 ### Unique Data in Storage | GSheet Inventory 
 
 * UAIR “Geospatial data and maps” | http://uair.library.arizona.edu/item/292543
-Vector data: Majority of data in the Spatial Data Explorer (and all of the data in the UAiR)
-NAIP datasets (specified): 2005, 2007, 2010, 2013 - regional 
-Biotic Communities
-Orthophotos, from Campus Planning
-Orthophotos (0.5’ Resolution), University of Arizona 1996.
-Orthophotos (0.5’ Resolution), University of Arizona 2001.
-Orthophotos (5’ Resolution), University of Arizona 2001.
-Orthophotos (2’ Resolution), University of Arizona 2001.
-Faculty data:
-Areas of high potential for large scale solar facilities, Arizona, 2014
-Buddhist Temples, China 2006
-Environmental Observations along the Agua Fria River, Arizona, 2008 (Arizona NEMO)
-Environmental Observations along the Agua Fria River, Arizona, 2010 (Arizona NEMO)
-Wet and Dry points along the Agua Fria River, Arizona, 2011 (Arizona NEMO)
-Vegetation types in Sonoran Pronghorn habitat, Cabeza Prieta NWR (Jim Malusa)
-Field work travel routes taken during vegetation mapping in … (Jim Malusa)
+* Vector data: Majority of data in the Spatial Data Explorer (and all of the data in the UAiR)
+* NAIP datasets (specified): 2005, 2007, 2010, 2013 - regional 
+* Biotic Communities
+* Orthophotos, from Campus Planning
+* Orthophotos (0.5’ Resolution), University of Arizona 1996.
+* Orthophotos (0.5’ Resolution), University of Arizona 2001.
+* Orthophotos (5’ Resolution), University of Arizona 2001.
+* Orthophotos (2’ Resolution), University of Arizona 2001.
 
-Contextual Information
-Note: may be out of date
-Geodata: Number of datasets is few, datasets are large 
+### Faculty data:
+* Areas of high potential for large scale solar facilities, Arizona, 2014
+* Buddhist Temples, China 2006
+* Environmental Observations along the Agua Fria River, Arizona, 2008 (Arizona NEMO)
+* Environmental Observations along the Agua Fria River, Arizona, 2010 (Arizona NEMO)
+* Wet and Dry points along the Agua Fria River, Arizona, 2011 (Arizona NEMO)
+* Vegetation types in Sonoran Pronghorn habitat, Cabeza Prieta NWR (Jim Malusa)
+* Field work travel routes taken during vegetation mapping in … (Jim Malusa)
+
+### Contextual Information
+Note: may be out of date  
+
+Geodata: Number of datasets is few, datasets are large   
+
 Arizona data:
 Entire grid for one year is 1.2 TB
 Arizona State Lands bought it from Department of Agriculture, state has to purchase it and then
