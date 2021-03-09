@@ -37,8 +37,8 @@ We have 2007, 2010, 2013, 2015
 **Arizona NAIP data:** 
 2005, 2007, 2010, 2013 - regional (we must keep this)
 **Other:** 
-Pima Associates for Government
-Currently lives on imagery.library
-Links on this site are linking directly from that filesystem
-15-20 datasets 300GB each 
-We purchase this from PAG
+Pima Associates for Government  
+Currently lives on imagery.library  
+Links on this site are linking directly from that filesystem  
+15-20 datasets 300GB each   
+We purchase this from PAG  
