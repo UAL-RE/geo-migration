@@ -1,8 +1,4 @@
-# Things to do
-*Reverse chronological order for updates*
+# UAL Geoportal Migration Project
 
-**1. [Set up CyVerse iRODS data store via icommands](https://learning.cyverse.org/projects/data_store_guide/en/latest/step2.html)**   
-  Are there icommands on 'geo' or only 'sequoia'?
-
-**2. Move data to CyVerse resource storage node**
+This repo documents processes taken to migrate UAL spatial data collection to new server (CEREUS) a CyVerse managed server housed at UITS.
 
