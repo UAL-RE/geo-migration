@@ -54,4 +54,10 @@ When you run the command, it is best practice to use the full path and not just 
 
 We have created the CyVerse user space `ual` which is in the Community Released Folders, its full path is `/iplant/home/shared/ual` 
 
+To check that everything transferred properly run `irsync` [(read more)](https://docs.irods.org/master/icommands/user/#irsync) which "synchronizes recursively the data from the local directory foo1 to the iRODS collection foo2 and the command"
+
+`irsync -rKv -R cereusRes /sequioa/PAGimagery/PAG/ i:/iplant/home/shared/ual/`
+
+This will fix any files that incorrectly transferred and transfer any files that weren't. 
+
 # Sync
