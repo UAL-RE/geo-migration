@@ -5,12 +5,17 @@
 This repo documents processes taken to migrate UAL spatial data collection to new server (CEREUS) a CyVerse managed server housed at UITS.
 
 # background
-This project was initiated to move spatial data off UAL servers (sequoia, geo, imagery) that have reached EOL. Migrating data is the first step in decomissioning these servers and sunsetting the Spatial Data Explorer (opengeoportal) web application. CEREUS was purchased through a TRIF-WEES grant in collaboration between T. Swetnam, D. LeBauer, K. Carini and others(?) to house spatial data for campus in a location that makes these data readily available for cloud-based, intensive analysis. 
+This project was initiated to move spatial data off UAL servers (sequoia, geo, imagery) that have reached EOL. Migrating data is the first step in decomissioning these servers and sunsetting the Spatial Data Explorer (opengeoportal) web application. CEREUS was purchased through a TRIF-WEES grant in collaboration between T. Swetnam, D. LeBauer, K. Carini and others(?) to house spatial data for campus in a location that makes these data readily available for cloud-based, intensive analysis.
 
-Data migration is conducted through server to server transfer using ????. 
+Data migration is conducted through server to server transfer using iRODS icommands.
 
 # initial setup
 
+1. Dependencies
+2. Setup
+3. Migration
+4. QA/QC
+5. Miscellaneous debris
 
 
 
@@ -22,7 +27,7 @@ Always use terminal multiplexing (`tmux`) to ensure that if you lose connection 
 
 `tmux ls` lists your open windows
 
-`tmux attach -t 0` attaches you to the window `0` 
+`tmux attach -t 0` attaches you to the window `0`
 
 To detach from a tmux window, hold your Ctrl + B buttons together, release Ctrl then alone press D
 
@@ -39,7 +44,7 @@ Steps
 
 After you've authenticated through iRODS search for a folder path that you want to move
 
-When you run the command, it is best practice to use the full path and not just a `~/` 
+When you run the command, it is best practice to use the full path and not just a `~/`
 
 ```iput -KPbvrf /sequioa/UAL_Vault/GeoArchive/public/<directory-to-be-copied/ /iplant/home/shared/ual/```
 
@@ -52,7 +57,7 @@ When you run the command, it is best practice to use the full path and not just 
 `-v` is for verbose
 `-f` is to force the overwrite
 
-We have created the CyVerse user space `ual` which is in the Community Released Folders, its full path is `/iplant/home/shared/ual` 
+We have created the CyVerse user space `ual` which is in the Community Released Folders, its full path is `/iplant/home/shared/ual`
 
 # Sync
 
@@ -63,4 +68,4 @@ Example:
 
 `irsync -rKv -R cereusRes /PAGimagery/PAG/ i:/iplant/home/shared/ual/public/PAG/files/`
 
-This will fix any files that incorrectly transferred and transfer any files that weren't. 
+This will fix any files that incorrectly transferred and transfer any files that didn't transfer for whatever reason. 
